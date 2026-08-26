@@ -1,0 +1,28 @@
+{
+  "label_names": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "metrics": {
+    "svm": {
+      "accuracy": 0.5666720937805275
+    },
+    "bert": {
+      "accuracy": 0.6760013025073266,
+      "macro_f1": 0.6716543039746407
+    },
+    "roberta_full": {
+      "accuracy": 0.7105991533702377,
+      "macro_f1": 0.7121508836077531
+    },
+    "lora_r32": {
+      "r": 32,
+      "accuracy": 0.7128785411917942,
+      "macro_f1": 0.7129026481982841,
+      "trainable_params": 1772547,
+      "pct_trainable": 1.4021042444022878,
+      "train_time_min": 12.593720960617066
+    }
+  }
+}
