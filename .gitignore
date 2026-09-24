@@ -1,0 +1,30 @@
+# Large model weights (exceed GitHub's 100 MB file limit)
+model.safetensors
+*.bin
+!models/**/adapter_model.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training artifacts
+checkpoint-*/
+runs/
+logs/
+wandb/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
